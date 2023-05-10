@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+$Red: hsl(0, 78%, 62%);
+$Cyan: hsl(180, 62%, 55%);
+$Orange: hsl(34, 97%, 64%);
+$Blue: hsl(212, 86%, 64%);
+
+.contant-h1{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #82808d;
+}
+.contant-h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color:hsl(234, 12%, 34%) ;    
+}
+.contant-p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color:  hsl(229, 6%, 66%);
+    @media (max-width:768px) {
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 1rem;
+        
+    }
+}
+
+.d-f {
+    display: flex;
+}
+.jc-c {
+    justify-content: center;
+}
+.ai-c {
+    align-items: center;
+}
+.ta-c {
+    text-align: center;
+}
+.jc-s {
+    justify-content: space-around;
+}
+.fd-c {
+    flex-direction: column;
+}
+.m-h-100{
+    min-height: 100%;
+}
+.b {
+    border: 1px solid red;
+}
+.max{
+    max-width: 380px;
+    min-height: 250px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px 8px hsl(240, 3%, 82%);
+  }
+  .heading{
+    font-size: 1.5rem;
+    color: hsl(234, 12%, 34%);
+  }
+  .paragraph{
+    margin-top: 20px;
+    color:  hsl(229, 6%, 66%);
+    line-height: 1.5;
+  }
+  .section-image{
+    display: inline-flex;
+    margin-top: 45px !important;
+    width: 100%;
+    .img{
+        margin-left: auto;
+        margin-right: 0;
+    }
+}
+
+
+
+
